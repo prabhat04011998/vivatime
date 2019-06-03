@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/logoaona.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -44,7 +44,9 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto"></a></h1>
+        <img src="img/logoaona.png" height="50px" width="60px">
+        <h1 style="display:inline"><a href="#intro" class="scrollto">APNAVIVA</a></h1>
+
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
@@ -54,12 +56,12 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="year">VIVA QUESTIONS</a>
+          <li class="menu-has-children"><a href="#">VIVA QUESTIONS</a>
             <ul>
               <li><a href="year">YEAR 1</a></li>
-              <li><a href="#">YEAR 2</a></li>
-              <li><a href="#">YEAR 3</a></li>
-              <li><a href="#">YEAR 4</a></li>
+              <li><a href="year/year2.php">YEAR 2</a></li>
+              <li><a href="year/year3.php">YEAR 3</a></li>
+              <li><a href="year/year4.php">YEAR 4</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -83,9 +85,8 @@
             <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>We are professional</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Last-Minute Prepration</h2>
+                <p>Prepare for viva at last moment and be confident in viva voce.</p>
               </div>
             </div>
           </div>
@@ -94,31 +95,28 @@
             <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Improve Your Viva</h2>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Help Others</h2>
+                <p>Please help your juniors just by posting questions, which will be Fruitful for them</p>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item">
+         <!-- <div class="carousel-item">
             <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Welcome for last-minute Prepration</h2>
-                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Edit Answers</h2>
+                <p>Edit the answer if you think you can answer it in a better way</p>
               </div>
             </div>
           </div>
-
+      -->
           <div class="carousel-item">
             <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Nam libero tempore</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Subject Wise Q&A</h2>
+                <p>You can view Q&A of all the subjects or you can also check Subject Wise</p>
               </div>
             </div>
           </div>
@@ -127,9 +125,10 @@
             <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Magnam aliquam quaerat</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Helping AITIANS</h2>
+                <p>Primary Motivation Behind This Website is To Help Students in VIVA's.
+                  <br><strong>So Prepare</strong>
+                </p>
               </div>
             </div>
           </div>
@@ -152,7 +151,30 @@
 
   <main id="main">
 
+    <!--==========================
+      Get Started
+    ============================-->
+    <br><br>
+    <section>
+      <div class="container text-center">
 
+        <header class="section-header">
+          <h3>Let's Get Started</h3>
+          <p>Choose Your Year and get started to prepare as well as help others for viva.</p>
+        </header>
+
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collp">Choose Your Year</button>
+
+        <ul id="collp" class="collapse list-unstyled p-4">
+        <li class="list-group-item"><a class="page-link" href="year">Year 1</a></li>
+        <li class="list-group-item"><a class="page-link" href="year/year2.php">Year 2</a></li>
+        <li class="list-group-item"><a class="page-link" href="year/year3.php">Year 3</a></li>
+        <li class="list-group-item"><a class="page-link" href="year/year4.php">Year 4</a></li>
+        </ul>
+        <br><br>
+      </div>
+    </section>
+<!-- #Get Started-->
 
     <!--==========================
       About Us Section
@@ -162,52 +184,10 @@
 
         <header class="section-header">
           <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>APNAVIVA has come up with a One-stop solution for all your viva needs.Here we provide you all  Important Questions for viva voce, We are  students like you , not professionals .so we want your support , Share this website to all the students .If you have any suggestion then please let us know as it will be beneficial for all of  us.</p>
         </header>
 
-        <div class="row about-cols">
 
-          <div class="col-md-4 wow fadeInUp">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Mission</a></h2>
-              <p>
-                All the students should interfare in this and upload the questions asked with them to help the juniors.
-                .
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-list-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
-              <p>
-                Provide a single plateform Where you can find all the questions asked in previoud years in the external and internal examination 
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Vision</a></h2>
-              <p>
-                Build the best product, cause no unnecessary harm, use business to inspire and implement solutions to the environmental crisis.
-              </p>
-            </div>
-          </div>
-
-        </div>
 
       </div>
     </section><!-- #about -->
@@ -224,77 +204,47 @@
       <div class="container">
         <div class="section-header wow fadeInUp">
           <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>Every Student Is A Part Of The Team.</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
+          <div class="col-lg-4 col-md-6 wow fadeInUp">
             <div class="member">
-              <img src="img/prabhat.jpg" class="img-fluid" alt="">
+              <figure>
+              <img src="img/vivek.jpg" class="img-fluid" alt="">
+                <figcaption class="figure-caption text-light">Vivek Rautela</figcaption>
+              </figure>
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Vivek Rautela</h4>
+                  <span>Co-founder</span>
+                  <div class="social">
+                    <a href="https://twitter.com/VivekRautela7"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/vivek.rautela.7"><i class="fa fa-facebook"></i></a>
+                    <a href="https://plus.google.com/u/0/111810963277846650767"><i class="fa fa-google-plus"></i></a>
+                    <a href="https://www.linkedin.com/in/vivek-rautela-b2410a151/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <figure>
+              <img src="img/prabhatc.jpg" class="img-fluid" alt="">
+                <figcaption class="figure-caption text-light">Prabhat Kumar Sharma</figcaption>
+              </figure>
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Prabhat Kumar Sharma</h4>
-                  <span>Chief Executive Officer</span>
+                  <span>Co-founder</span>
                   <div class="social">
                     <a href="https://twitter.com/prabhat11134477"><i class="fa fa-twitter"></i></a>
                     <a href="https://www.facebook.com/profile.php?id=100006019236057"><i class="fa fa-facebook"></i></a>
                     <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href="https://www.linkedin.com/in/prabhatkumarsharma"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="img/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="img/vivek.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Vivek Rautela</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href="https://www.linkedin.com/in/vivek-rautela-b2410a151/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/prabhatkumarsharma/"><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -314,7 +264,7 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>We are always avaliable for your problems , queries and suggestions.</p>
+          <p>We Are 24*7 Avaliable for your Problems. Your Suggestions to Improve Website Are Valuable For Us</p>
         </div>
 
         <div class="row contact-info">
@@ -323,7 +273,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+91 7417 330025<br> +91 8650 52482</a></p>
+       <p><a href="tel:+917417330025" class="">+917417330025</a><br><a href="tel:+918650524825">+918650524825</a></p>
             </div>
           </div>
 
@@ -331,7 +281,11 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">vivekrautela000@gmail.com</a></p>
+              <p>
+                <a href="mailto:prabhat.04011998@gmail.com">prabhat.04011998@gmail.com</a>
+                <br>
+                <a href="mailto:vivekrautela000@gmail.com">vivekrautela000@gmail.com</a>
+              </p>
             </div>
           </div>
 
@@ -350,12 +304,12 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 footer-info">
+          <div class="col-lg-6 col-md-6 footer-info">
             <h3>APNAVIVA</h3>
-            <p>A Well Devloped place for last Minute Prepration for  Internal And External Viva and Practicals</p>
+            <p>This website is created just to help the students of AIT prepare for their viva and they can view the questions faced by their seniors with answers</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-6 col-md-6 footer-links">
 
             <ul>
               <li class="menu-active"><a href="#intro">Home</a></li>
@@ -365,26 +319,13 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-contact">
-            <h4>Contact Us Through Social Sites</h4>
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>APNAVIVA</strong>
+        Copyright &copy;<strong>APNAVIVA</strong>
       </div>
 
     </div>
